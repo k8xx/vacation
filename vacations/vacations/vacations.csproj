@@ -58,6 +58,12 @@
     <Compile Include="mainGUI.Designer.cs">
       <DependentUpon>mainGUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="PositionsFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PositionsFrm.Designer.cs">
+      <DependentUpon>PositionsFrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="EmpAddFrm.resx">
@@ -65,6 +71,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="mainGUI.resx">
       <DependentUpon>mainGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PositionsFrm.resx">
+      <DependentUpon>PositionsFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

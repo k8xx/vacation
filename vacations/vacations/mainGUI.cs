@@ -16,15 +16,22 @@ namespace vacations
         {
             InitializeComponent();
         }
-        EmpAddFrm  myform;
+        EmpAddFrm empAddFrm;
         private void toolStripButton1_Click_1(object sender, EventArgs e)
         {
             //var myForm = new EmpAddFrm();
             //myForm.Show();
-            myform = new EmpAddFrm();
-            myform.MdiParent = this;
-            myform.Show();
+            empAddFrm = new EmpAddFrm();
+            empAddFrm.MdiParent = this;
+            empAddFrm.Show();
 
+        }
+        PositionsFrm positionsFrm;
+        private void toolStripButton6_Click(object sender, EventArgs e)
+        {
+            positionsFrm = new PositionsFrm();
+            positionsFrm.MdiParent = this;
+            positionsFrm.Show();
         }
     }
 }

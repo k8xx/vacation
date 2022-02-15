@@ -126,6 +126,7 @@
             this.toolStripButton6.Size = new System.Drawing.Size(69, 72);
             this.toolStripButton6.Text = "المناصب";
             this.toolStripButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton6.Click += new System.EventHandler(this.toolStripButton6_Click);
             // 
             // toolStripButton3
             // 
