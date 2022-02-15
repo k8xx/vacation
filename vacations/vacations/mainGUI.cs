@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace vacations
 {
-    public partial class Form1 : Form
+    public partial class mainGUI : Form
     {
-        public Form1()
+        public mainGUI()
         {
             InitializeComponent();
         }
