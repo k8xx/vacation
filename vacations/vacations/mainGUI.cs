@@ -26,5 +26,12 @@ namespace vacations
             myform.Show();
 
         }
+        TitileFrm titileFrm;
+        private void toolStripButton4_Click(object sender, EventArgs e)
+        {
+            titileFrm = new TitileFrm();
+            titileFrm.MdiParent = this;
+            titileFrm.Show();
+        }
     }
 }
