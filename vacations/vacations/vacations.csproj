@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddPositionFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPositionFrm.Designer.cs">
+      <DependentUpon>AddPositionFrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="EmpAddFrm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     <Compile Include="TitileFrm.Designer.cs">
       <DependentUpon>TitileFrm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddPositionFrm.resx">
+      <DependentUpon>AddPositionFrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EmpAddFrm.resx">
       <DependentUpon>EmpAddFrm.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,6 +124,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-cancel-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cancel-481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-property-36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-window-36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-48.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -26,21 +26,22 @@ namespace vacations
             empAddFrm.Show();
 
         }
-<<<<<<< HEAD
+
         PositionsFrm positionsFrm;
         private void toolStripButton6_Click(object sender, EventArgs e)
         {
             positionsFrm = new PositionsFrm();
             positionsFrm.MdiParent = this;
             positionsFrm.Show();
-=======
+
+        }
         TitileFrm titileFrm;
+
         private void toolStripButton4_Click(object sender, EventArgs e)
         {
             titileFrm = new TitileFrm();
             titileFrm.MdiParent = this;
             titileFrm.Show();
->>>>>>> d0d12828a23b134a1ae1ac8ba5c9bf4b94a1d07f
         }
     }
 }

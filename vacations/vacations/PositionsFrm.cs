@@ -16,5 +16,17 @@ namespace vacations
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+        AddPositionFrm addPositionFrm;
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            addPositionFrm = new AddPositionFrm();
+            //addPositionFrm.MdiParent = this;
+            addPositionFrm.Show();
+        }
     }
 }
