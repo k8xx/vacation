@@ -136,6 +136,7 @@
             this.toolStripButton3.Size = new System.Drawing.Size(93, 67);
             this.toolStripButton3.Text = "التحصيل الدراسي";
             this.toolStripButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
             // 
             // menuStrip1
             // 

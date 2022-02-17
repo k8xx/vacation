@@ -36,12 +36,19 @@ namespace vacations
 
         }
         TitileFrm titileFrm;
-
+        CertificatesFrm certificatesFrm;
         private void toolStripButton4_Click(object sender, EventArgs e)
         {
             titileFrm = new TitileFrm();
             titileFrm.MdiParent = this;
             titileFrm.Show();
+        }
+
+        private void toolStripButton3_Click(object sender, EventArgs e)
+        {
+            certificatesFrm = new CertificatesFrm();
+            certificatesFrm.MdiParent = this;
+            certificatesFrm.Show();
         }
     }
 }

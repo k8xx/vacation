@@ -52,6 +52,12 @@
     <Compile Include="AddPositionFrm.Designer.cs">
       <DependentUpon>AddPositionFrm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CertificatesFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CertificatesFrm.Designer.cs">
+      <DependentUpon>CertificatesFrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DeletPositinsFrm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     </Compile>
     <EmbeddedResource Include="AddPositionFrm.resx">
       <DependentUpon>AddPositionFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CertificatesFrm.resx">
+      <DependentUpon>CertificatesFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DeletPositinsFrm.resx">
       <DependentUpon>DeletPositinsFrm.cs</DependentUpon>
