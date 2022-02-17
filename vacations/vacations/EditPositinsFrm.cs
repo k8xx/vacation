@@ -7,13 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 
 namespace vacations
 {
-    public partial class AddPositionFrm : Form
+    public partial class EditPositinsFrm : Form
     {
-        public AddPositionFrm()
+        public EditPositinsFrm()
         {
             InitializeComponent();
         }
@@ -21,11 +20,6 @@ namespace vacations
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
         }
     }
 }

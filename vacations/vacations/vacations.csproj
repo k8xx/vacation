@@ -52,6 +52,18 @@
     <Compile Include="AddPositionFrm.Designer.cs">
       <DependentUpon>AddPositionFrm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DeletPositinsFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeletPositinsFrm.Designer.cs">
+      <DependentUpon>DeletPositinsFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditPositinsFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditPositinsFrm.Designer.cs">
+      <DependentUpon>EditPositinsFrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="EmpAddFrm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +92,12 @@
     </Compile>
     <EmbeddedResource Include="AddPositionFrm.resx">
       <DependentUpon>AddPositionFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeletPositinsFrm.resx">
+      <DependentUpon>DeletPositinsFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPositinsFrm.resx">
+      <DependentUpon>EditPositinsFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmpAddFrm.resx">
       <DependentUpon>EmpAddFrm.cs</DependentUpon>
@@ -136,6 +154,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-add-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\im.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-update-48.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
