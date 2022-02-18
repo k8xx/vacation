@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace vacations
 {
-    public partial class DeletPositinsFrm : Form
+    public partial class DeletTitleFrm : Form
     {
-        public DeletPositinsFrm()
+        public DeletTitleFrm()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

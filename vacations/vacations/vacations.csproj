@@ -52,6 +52,12 @@
     <Compile Include="AddPositionFrm.Designer.cs">
       <DependentUpon>AddPositionFrm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddTitleFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTitleFrm.Designer.cs">
+      <DependentUpon>AddTitleFrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CertificatesFrm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,11 +70,23 @@
     <Compile Include="DeletPositinsFrm.Designer.cs">
       <DependentUpon>DeletPositinsFrm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DeletTitleFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeletTitleFrm.Designer.cs">
+      <DependentUpon>DeletTitleFrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditPositinsFrm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="EditPositinsFrm.Designer.cs">
       <DependentUpon>EditPositinsFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditTitleFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditTitleFrm.Designer.cs">
+      <DependentUpon>EditTitleFrm.cs</DependentUpon>
     </Compile>
     <Compile Include="EmpAddFrm.cs">
       <SubType>Form</SubType>
@@ -99,14 +117,23 @@
     <EmbeddedResource Include="AddPositionFrm.resx">
       <DependentUpon>AddPositionFrm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AddTitleFrm.resx">
+      <DependentUpon>AddTitleFrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CertificatesFrm.resx">
       <DependentUpon>CertificatesFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DeletPositinsFrm.resx">
       <DependentUpon>DeletPositinsFrm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DeletTitleFrm.resx">
+      <DependentUpon>DeletTitleFrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EditPositinsFrm.resx">
       <DependentUpon>EditPositinsFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTitleFrm.resx">
+      <DependentUpon>EditTitleFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmpAddFrm.resx">
       <DependentUpon>EmpAddFrm.cs</DependentUpon>
